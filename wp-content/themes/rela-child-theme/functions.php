@@ -12,6 +12,7 @@ if (! function_exists('rela_child_styles')) {
 
 		// register style
 		wp_enqueue_style('rela-child-css', get_stylesheet_directory_uri() . '/style.css');
+        wp_enqueue_script('global-scripts', get_stylesheet_directory_uri() . '/js/global-scripts.js', array('jquery'), '', true);
 
 
 	}

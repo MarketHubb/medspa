@@ -14,3 +14,38 @@ Template: rela
 
 /* = Add your own modification from here
 -------------------------------------------------------------- */
+/*region Header & Navigation */
+.main-header__logo-label {
+    display: none;
+}
+.elementor-widget-container .main-header--third .main-header__logo img {
+    max-height: 85px;
+}
+/*endregion*/
+/*region Global*/
+#logo-svg {
+    display: none;
+}
+.container-text-bold h1, .container-text-bold h2, .container-text-bold h3, .container-text-bold h4, .container-text-bold h5, .container-text-bold p, .container-text-bold a {
+    font-weight: bold;
+}
+.container-text-white h1, .container-text-white h2, .container-text-white h3, .container-text-white h4, .container-text-white h5, .container-text-white p, .container-text-white a {
+    color: #fff;
+}
+/*endregion*/
+/*region Footer*/
+#footer-contact-container p, #footer-contact-container span {
+    color: #43484e;
+}
+#footer-links .elementor-icon svg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+/*endregion*/
+#home-slider .aheto-btn--primary {
+    display: none;
+}
+#home-brands {
+    display: none;
+}
