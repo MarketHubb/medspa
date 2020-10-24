@@ -23,6 +23,13 @@ Template: rela
 }
 /*endregion*/
 /*region Global*/
+.display-none {
+    display: none !important;
+}
+.aheto-link.aheto-btn--dark:hover {
+    color: #43484e !important;
+    text-decoration: underline;
+}
 #logo-svg {
     display: none;
 }
@@ -31,6 +38,18 @@ Template: rela
 }
 .container-text-white h1, .container-text-white h2, .container-text-white h3, .container-text-white h4, .container-text-white h5, .container-text-white p, .container-text-white a {
     color: #fff;
+}
+/*endregion*/
+/*region Links & Buttons */
+.cs-button--rela-main.aheto-btn--dark {
+    font-weight: 800;
+    font-size: 14px;
+}
+.cs-button--rela-main.aheto-btn--dark:hover {
+    color: #282c33;
+}
+.cs-button--rela-main.aheto-btn--dark:before {
+    border-top-width: 3px;
 }
 /*endregion*/
 /*region Footer*/
@@ -42,10 +61,58 @@ Template: rela
     height: auto;
     margin-bottom: 1rem;
 }
+#footer-links .widget-nav-menu__title {
+    font-weight: 800;
+}
+#footer-links ul.menu li a, #footer-contact, #logo-svg + .elementor-widget-aheto_heading .aheto-heading__desc {
+    color: rgba(255,248,245,1);
+    font-size: 16px;
+    font-weight: 600;
+}
+#logo-svg + .elementor-widget-aheto_heading .aheto-heading__desc {
+    border-top: 1px solid rgba(255,255,255, .4);
+    padding-top: 2.5rem;
+    color: #fff;
+}
 /*endregion*/
+/*region Banner / Hero */
+.elementor-section.elementor-top-section.elementor-section-full_width.service-hero {
+    padding: 200px 0px 210px 0px;
+}
+.elementor-section.elementor-top-section.elementor-section-full_width.service-hero .aheto-heading__title {
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.elementor-section.elementor-top-section.elementor-section-full_width.service-hero .elementor-widget-aheto_heading .aheto-heading__desc {
+    font-size: 18px;
+    line-height: 140%;
+    color: #fff;
+}
+.elementor-section.elementor-top-section.elementor-section-full_width.service-hero .elementor-widget-aheto_heading .aheto-heading__desc strong {
+    color: #fff;
+}
+/*endregion*/
+/*region Home */
 #home-slider .aheto-btn--primary {
     display: none;
 }
 #home-brands {
     display: none;
+}
+#services h4 {
+    line-height: 1.28;
+    font-weight: 600;
+}
+#services .aheto-link.aheto-btn--dark {
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+/*endregion*/
+@media (min-width: 992px) {
+    #services .elementor-column:first-of-type .elementor-column-wrap, #services .elementor-column:last-of-type .elementor-column-wrap {
+        margin: 30px 0px 30px 0px;
+    }
+    #services .elementor-column:nth-last-of-type(2) .elementor-column-wrap, #services .elementor-column:nth-last-of-type(5) .elementor-column-wrap {
+        margin: 15px 0px 15px 0px;
+    }
 }

@@ -1,0 +1,13 @@
+.elementor-section.elementor-top-section.elementor-section-full_width.service-hero {
+    padding: 200px 0px 210px 0px;
+}
+.elementor-section.elementor-top-section.elementor-section-full_width.service-hero .aheto-heading__title {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.elementor-section.elementor-top-section.elementor-section-full_width.service-hero .elementor-widget-aheto_heading .aheto-heading__desc {
+    font-size: 18px;
+    line-height: 140%;
+    color: #fff;
+}

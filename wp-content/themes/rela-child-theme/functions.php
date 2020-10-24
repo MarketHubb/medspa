@@ -14,6 +14,9 @@ if (! function_exists('rela_child_styles')) {
 		wp_enqueue_style('rela-child-css', get_stylesheet_directory_uri() . '/style.css');
         wp_enqueue_script('global-scripts', get_stylesheet_directory_uri() . '/js/global-scripts.js', array('jquery'), '', true);
 
+        if (is_page([6969,6980, 159, 6971, 6748, 6973])) {
+            wp_enqueue_style('service-styles', get_stylesheet_directory_uri() . '/css/service-styles.css');
+        }
 
 	}
 }
