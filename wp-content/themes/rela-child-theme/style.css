@@ -12,6 +12,11 @@ Text Domain: rela-child
 Template: rela
 */
 
+/* Brand
+Light purple: #86819d
+
+*/
+
 /* = Add your own modification from here
 -------------------------------------------------------------- */
 /*region Header & Navigation */
@@ -39,7 +44,26 @@ Template: rela
 .container-text-white h1, .container-text-white h2, .container-text-white h3, .container-text-white h4, .container-text-white h5, .container-text-white p, .container-text-white a {
     color: #fff;
 }
+a.text-link {
+    font-size: inherit;
+    font-style: normal;
+    text-decoration: underline !important;
+    color: #007bff;
+}
 /*endregion*/
+
+/*region Elementor Customizations */
+.container .elementor .elementor-section-wrap .service-content-container {
+    padding: 0;
+}
+.container .elementor .elementor-section-wrap .service-content-container .elementor-container {
+    padding: 40px 0;
+}
+.container .elementor .elementor-section-wrap section.service-content-container .elementor-container {
+    border-bottom: 1px solid #ddd;
+}
+/*endregion*/
+
 /*region Links & Buttons */
 .cs-button--rela-main.aheto-btn--dark {
     font-weight: 800;
