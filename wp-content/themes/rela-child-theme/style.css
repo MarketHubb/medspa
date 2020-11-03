@@ -20,11 +20,22 @@ Light purple: #86819d
 /* = Add your own modification from here
 -------------------------------------------------------------- */
 /*region Header & Navigation */
+#header-contact-container .aheto-navbar--left .aheto-navbar--item a {
+    color: #43484e !important;
+    font-weight: 600;
+}
+#header-contact-container .aheto-navbar--right .aheto-navbar--item-link.icon {
+    font-size: 1.5rem;
+}
 .main-header__logo-label {
     display: none;
 }
 .elementor-widget-container .main-header--third .main-header__logo img {
     max-height: 85px;
+}
+.menu-home-page-container .main-menu>li.current-menu-item>a, .menu-home-page-container .main-menu>li.current-menu-parent>a {
+    letter-spacing: 2.5px !important;
+    font-weight: 800;
 }
 /*endregion*/
 /*region Global*/
