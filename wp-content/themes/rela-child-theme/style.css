@@ -39,6 +39,23 @@ Light purple: #86819d
 }
 /*endregion*/
 /*region Global*/
+.no-wrap {
+    white-space: nowrap !important;
+}
+.show-hide .aheto-list__title {
+    margin-top: .5rem;
+    letter-spacing: 1.5px;
+    border-bottom: 1px dotted;
+    border-color: #ddd;
+    display: inline-block;
+}
+.show-hide .aheto-list__title:hover {
+    border-color: rgba(43,46,51,0.9);
+    cursor: pointer;
+}
+.show-hide ul {
+    display: none;
+}
 .display-none {
     display: none !important;
 }
@@ -61,9 +78,15 @@ a.text-link {
     text-decoration: underline !important;
     color: #007bff;
 }
+.lst-disc {
+    list-style-type: disc;
+}
 /*endregion*/
 
 /*region Elementor Customizations */
+.aheto-heading__title span {
+    color: inherit !important;
+}
 .container .elementor .elementor-section-wrap .service-content-container {
     padding: 0;
 }
@@ -114,8 +137,15 @@ a.text-link {
 }
 /*endregion*/
 /*region Banner / Hero */
+.service-hero .elementor-background-overlay {
+    background-color: #000 !important;
+}
 .service-hero h1 {
     font-size: 6vw !important;
+}
+.service-hero .elementor-widget-aheto_heading:nth-of-type(2) .aheto-heading__desc {
+    font-size: 1.3rem !important;
+    max-width: 1220px !important;
 }
 .elementor-section.elementor-top-section.elementor-section-full_width.service-hero {
     padding: 20vh 0;
