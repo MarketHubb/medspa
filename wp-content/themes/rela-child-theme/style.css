@@ -19,10 +19,11 @@ Light purple: #86819d
 
 /* = Add your own modification from here
 -------------------------------------------------------------- */
+
 /*region Header & Navigation */
 #header-contact-container .aheto-navbar--left .aheto-navbar--item a {
-    color: #43484e !important;
-    font-weight: 600;
+    color: #333 !important;
+    font-weight: 700;
 }
 #header-contact-container .aheto-navbar--right .aheto-navbar--item-link.icon {
     font-size: 1.5rem;
@@ -39,6 +40,61 @@ Light purple: #86819d
 }
 /*endregion*/
 /*region Global*/
+#alert-container {
+    margin-bottom: 0;
+}
+.header-alert {
+    padding: .3rem 1rem .35rem;
+    display: block;
+    line-height: 125%;
+    background: red;
+    letter-spacing: -.015rem;
+    font-family: 'Muli';
+}
+.header-alert, .header-alert a {
+    color: #fff;
+    font-weight: 700;
+    font-size: .9rem;
+}
+.header-alert strong {
+    color: #fff;
+    font-weight: 900;
+}
+.lst-none {
+    list-style-type: none;
+}
+.inline {
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+ul.inline li {
+    display: inline;
+    padding: 0 .5rem;
+}
+ul.inline li:not(:last-of-type) {
+    border-right: 1px solid;
+}
+ul.inline.centered {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0px;
+}
+ul.text-white li, ul.text-white li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+ul.inline li a:hover {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .no-wrap {
     white-space: nowrap !important;
 }
@@ -80,6 +136,12 @@ a.text-link {
 }
 .lst-disc {
     list-style-type: disc;
+}
+.panel-section .elementor-image-box-description {
+    font-weight: normal !important;
+}
+.panel-section ul li {
+    font-weight: bold;
 }
 /*endregion*/
 
@@ -137,6 +199,7 @@ a.text-link {
 }
 /*endregion*/
 /*region Banner / Hero */
+
 .service-hero .elementor-background-overlay {
     background-color: #000 !important;
 }
@@ -207,7 +270,14 @@ a.text-link {
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {}
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+    #header-contact-container .aheto-navbar--item {
+        padding: 3px 0 0 12px;
+    }
+    #header-contact-container .aheto-navbar--item:last-of-type {
+        margin-bottom: 5px;
+    }
+}
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     .service-hero h1 {
