@@ -39,7 +39,11 @@ Light purple: #86819d
     font-weight: 800;
 }
 /*endregion*/
+
 /*region Global*/
+.bg-white {
+    background-color: #fff !important;
+}
 #alert-container {
     margin-bottom: 0;
 }
@@ -173,6 +177,34 @@ a.text-link {
 }
 /*endregion*/
 /*region Footer*/
+#footer-form {
+    padding: 1.5rem;
+}
+#footer-form .gform_wrapper .top_label .gfield_label {
+    color: #222;
+    margin-bottom: 0;
+}
+#footer-form .gform_wrapper input, #footer-form .gform_wrapper textarea {
+    background: #f7efec;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 12px;
+}
+#footer-form input[type="submit"] {
+    font-family: 'Muli';
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.15;
+    letter-spacing: 3.3px;
+    font-style: normal;
+    padding: 23px 35px;
+    border: 1px #a87e72;
+    background: #86819d;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 100%;
+}
+
 #footer-callout .elementor-row {
     padding: 1rem;
 }
