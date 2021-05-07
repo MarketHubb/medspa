@@ -51,14 +51,12 @@ Light purple: #86819d
     padding: .3rem 1rem .35rem;
     display: block;
     line-height: 125%;
-    background: red;
-    letter-spacing: -.015rem;
+    background: #58DCE9;
     font-family: 'Muli';
 }
 .header-alert, .header-alert a {
     color: #fff;
     font-weight: 700;
-    font-size: .9rem;
 }
 .header-alert strong {
     color: #fff;
