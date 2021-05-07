@@ -175,6 +175,10 @@ a.text-link {
 }
 /*endregion*/
 /*region Footer*/
+.location-phone {
+    color: inherit !important;
+    font-size: 1rem !important;
+}
 #footer-form {
     padding: 1.5rem;
 }
