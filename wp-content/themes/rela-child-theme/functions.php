@@ -21,6 +21,9 @@ if (! function_exists('rela_child_styles')) {
             wp_enqueue_style('service-styles', get_stylesheet_directory_uri() . '/css/service-styles.css');
         }
 
+        if (is_page(7413)) {
+            wp_enqueue_style('location-styles', get_stylesheet_directory_uri() . '/css/location-styles.css');
+        }
 	}
 }
 add_action( 'wp_enqueue_scripts', 'rela_child_styles');
