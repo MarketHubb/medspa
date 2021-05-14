@@ -22,7 +22,7 @@ Light purple: #86819d
 
 /*region Header & Navigation */
 #header-contact-container .aheto-navbar--left .aheto-navbar--item a {
-    color: #333 !important;
+    color: #43484e !important;
     font-weight: 700;
 }
 #header-contact-container .aheto-navbar--right .aheto-navbar--item-link.icon {
@@ -34,9 +34,13 @@ Light purple: #86819d
 .elementor-widget-container .main-header--third .main-header__logo img {
     max-height: 85px;
 }
-.menu-home-page-container .main-menu>li.current-menu-item>a, .menu-home-page-container .main-menu>li.current-menu-parent>a {
-    letter-spacing: 2.5px !important;
+.menu-home-page-container .main-menu .menu-item a {
+    letter-spacing: 2px !important;
     font-weight: 800;
+    color: #43484e !important;
+}
+.menu-home-page-container .main-menu>li.current-menu-item>a, .menu-home-page-container .main-menu>li.current-menu-parent>a {
+    border-bottom: 1px solid;
 }
 /*endregion*/
 
